@@ -70,7 +70,7 @@ headsepline, % Uncomment to get a line under the header
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Integrating somatic and germline multi-omics data to improve our understanding of lung cancer: a computational biology perspective.} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\thesistitle{Introduction to Cancer genomics} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 \supervisor{\hspace{-1cm} Dr. James \textsc{McKay}, Dr. Matthieu \textsc{Foll}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Doctor of Philosophy} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
@@ -79,9 +79,9 @@ headsepline, % Uncomment to get a line under the header
 
 \subject{Computational Biology} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 \keywords{Omics data, Computational biology, Data integration, Lung cancer } % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
-\university{Université Claude Bernard Lyon 1} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\university{INSA de Lyon} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
 \department{} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
-\group{\href{http://researchgroup.university.com}{Research Group Name}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\group{Genetic Cancer Susceptibility group, IARC-WHO} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
 \faculty{} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
 
 \AtBeginDocument{
@@ -106,6 +106,43 @@ headsepline, % Uncomment to get a line under the header
 
 \mainmatter % Begin numeric (1,2,3...) page numbering
 \pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\vspace*{.06\textheight}
+%{\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
+
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % thesis title
+\HRule \\[1.5cm] % Horizontal line
+ 
+
+\begin{flushright} \large
+\emph{Author:}\\
+\authorname % Author name - remove the \href bracket to remove the link
+\end{flushright}
+
+\vspace{3cm} 
+\vfill
+
+\large \textit{This document comes from the first chapter of my PhD thesis, supervised by Dr. Matthieu Foll and Dr. James McKay and entitled "Integrating somatic and germline multi-omics data to improve our understanding of lung cancer: a computational biology perspective"}\\[0.3cm] % University requirement text
+\textit{in the}\\[0.4cm]
+\groupname\\\deptname\\[2cm] % Research group name and department name
+ 
+\vfill
+
+{\large \today}\\[4cm] % Date
+%\includegraphics{Logo} % University/department logo - uncomment to place it
+ 
+\vfill
+\end{center}
+\end{titlepage}
 
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
